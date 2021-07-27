@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.MovieDetailsActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:padding="5dp"
+            android:textSize="26sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_title_value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:padding="5dp"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@tools:sample/backgrounds/scenic" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_vote_average"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_vote_average"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:padding="5dp"
+            android:textSize="26sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_vote_average_value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:padding="5dp"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_vote_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_vote_count"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:padding="5dp"
+            android:textSize="26sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_vote_count_value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:padding="5dp"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/overview"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textSize="26sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_overview_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="26sp" />
+
+
+
+</LinearLayout>
+
+

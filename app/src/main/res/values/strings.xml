@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MVVM with Kotlin Coroutines and Retrofit</string>
+    <string name="overview">Overview</string>
+</resources>
